@@ -49,7 +49,7 @@ public class addToChart extends PageObject {
 //        wait.until(this.search.isDisplayed());
         this.search.isDisplayed();
         this.search.click();
-        this.search.sendKeys("redmi note");
+        this.search.sendKeys("redmi 9A");
         this.search.sendKeys(Keys.ENTER);
     }
 
