@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import sun.jvm.hotspot.debugger.Page;
+
 
 public class RegisterObject extends PageObject {
     @FindBy(css = ".bl-text-field")
@@ -52,7 +52,7 @@ public class RegisterObject extends PageObject {
         this.regiser_button.click();
         this.wrapperVerif.isDisplayed();
         this.buttonVerif.click();
-        Thread.sleep(5000);
+        Thread.sleep(500);
         this.wrapperValidate.isDisplayed();
        String Validate = this.registerValidate.getText();
         System.out.println(Validate);

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Login Sample Android (Multithread)" thread-count="1" parallel="tests">
-    <test name="IM_AN_Register">
-<!--        <parameter name="deviceName" value="ASUS_X00QD"/>-->
-<!--        <parameter name="platformVersion" value="9"/>-->
-<!--        <parameter name="systemPort" value="8201"/>-->
-<!--        <parameter name="udid" value="J8AXGF02R8077CG"/>-->
+    <test name="TS_WB_BL">
         <classes>
-<!--            <class name="com.test.bukalapak.TestPlan"/>-->
-            <class name="com.test.bukalapak.TestRegister"/>
+            <class name="com.test.bukalapak.TestPlan"/>
+<!--            <class name="com.test.bukalapak.TestRegister"/>-->
             <!--            <class name="com.testing.imkas.member.login.Login"/>-->
         </classes>
     </test>

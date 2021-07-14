@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Login Sample Android (Multithread)" duration-ms="3878" started-at="2021-07-13T03:21:58 WIB" finished-at="2021-07-13T03:22:02 WIB">
+  <suite name="Login Sample Android (Multithread)" duration-ms="40033" started-at="2021-07-14T07:07:31 WIB" finished-at="2021-07-14T07:08:11 WIB">
     <groups>
     </groups>
-    <test name="IM_AN_Register" duration-ms="3878" started-at="2021-07-13T03:21:58 WIB" finished-at="2021-07-13T03:22:02 WIB">
+    <test name="IM_AN_Register" duration-ms="40033" started-at="2021-07-14T07:07:31 WIB" finished-at="2021-07-14T07:08:11 WIB">
       <class name="com.test.bukalapak.TestPlan">
-        <test-method status="PASS" signature="submitForm()[pri:0, instance:com.test.bukalapak.TestPlan@201a4587]" name="submitForm" duration-ms="3810" started-at="2021-07-13T03:21:58 WIB" finished-at="2021-07-13T03:22:02 WIB">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.test.bukalapak.TestPlan@82de64a]" name="Login" duration-ms="10555" started-at="2021-07-14T07:07:31 WIB" finished-at="2021-07-14T07:07:41 WIB">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- submitForm -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.test.bukalapak.TestPlan@201a4587]" name="cleanUp" is-config="true" duration-ms="109" started-at="2021-07-13T03:22:07 WIB" finished-at="2021-07-13T03:22:07 WIB">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="setCart()[pri:0, instance:com.test.bukalapak.TestPlan@82de64a]" name="setCart" duration-ms="29395" started-at="2021-07-14T07:07:41 WIB" finished-at="2021-07-14T07:08:11 WIB">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCart -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.test.bukalapak.TestPlan@82de64a]" name="cleanUp" is-config="true" duration-ms="856" started-at="2021-07-14T07:08:16 WIB" finished-at="2021-07-14T07:08:17 WIB">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->

@@ -10,6 +10,7 @@ import pageObject.addToChart;
 import pageObject.Utils;
 
 
+
 import java.util.concurrent.TimeUnit;
 
 public class TestPlan {
@@ -30,7 +31,7 @@ public class TestPlan {
         login.pressSubmitButton();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         login.verifyLoginSuccess();
-        Thread.sleep(2000);
+        Thread.sleep(500);
 
     }
 

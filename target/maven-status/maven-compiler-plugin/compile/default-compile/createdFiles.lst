@@ -1,2 +1,5 @@
-pageObject/WebForm.class
+pageObject/RegisterObject.class
+pageObject/Login.class
+pageObject/addToChart.class
+pageObject/Utils.class
 pageObject/PageObject.class

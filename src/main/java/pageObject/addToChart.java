@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
@@ -48,6 +49,7 @@ public class addToChart extends PageObject {
         WebDriverWait wait = new WebDriverWait(driver,30);
 //        wait.until(this.search.isDisplayed());
         this.search.isDisplayed();
+        Assert.assertTrue(this.search.isDisplayed());
         this.search.click();
         this.search.sendKeys("redmi 9A");
         this.search.sendKeys(Keys.ENTER);

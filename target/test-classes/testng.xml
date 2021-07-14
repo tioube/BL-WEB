@@ -7,8 +7,8 @@
 <!--        <parameter name="systemPort" value="8201"/>-->
 <!--        <parameter name="udid" value="J8AXGF02R8077CG"/>-->
         <classes>
-<!--            <class name="com.test.bukalapak.TestPlan"/>-->
-            <class name="com.test.bukalapak.TestRegister"/>
+            <class name="com.test.bukalapak.TestPlan"/>
+<!--            <class name="com.test.bukalapak.TestRegister"/>-->
             <!--            <class name="com.testing.imkas.member.login.Login"/>-->
         </classes>
     </test>
